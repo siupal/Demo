@@ -3,23 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>生态系统模拟器</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>生态系统模拟器 - 演示项目</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #333;
+        }
+        .button {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+    </style>
 </head>
 <body>
-    <h1>生态系统模拟器</h1>
-    <div id="simulation-container">
-        <canvas id="ecosystem" width="800" height="400"></canvas>
-    </div>
-    <div id="controls">
-        <button id="start">开始模拟</button>
-        <button id="pause">暂停</button>
-        <button id="reset">重置</button>
-    </div>
-    <div id="stats">
-        <p>兔子数量: <span id="rabbit-count">0</span></p>
-        <p>狼数量: <span id="wolf-count">0</span></p>
-    </div>
-    <script src="script.js"></script>
+    <h1>欢迎来到生态系统模拟器演示项目</h1>
+    <p>这个项目展示了一个简单的生态系统模拟,包括捕食者(狼)和猎物(兔子)之间的相互作用。</p>
+    <h2>项目特点:</h2>
+    <ul>
+        <li>可视化的兔子和狼群体动态</li>
+        <li>实时更新的种群数量统计</li>
+        <li>交互式控制:开始、暂停和重置模拟</li>
+    </ul>
+    <p>点击下面的按钮开始体验生态系统模拟器:</p>
+    <a href="simulation.html" class="button">启动模拟器</a>
+    <h2>了解更多</h2>
+    <p>要了解更多关于这个项目的信息,请查看我们的 <a href="https://github.com/yourusername/ecosystem-simulator" target="_blank">GitHub仓库</a>。</p>
 </body>
 </html>
