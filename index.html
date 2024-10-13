@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>生态系统模拟器</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>生态系统模拟器</h1>
+    <div id="simulation-container">
+        <canvas id="ecosystem" width="800" height="400"></canvas>
+    </div>
+    <div id="controls">
+        <button id="start">开始模拟</button>
+        <button id="pause">暂停</button>
+        <button id="reset">重置</button>
+    </div>
+    <div id="stats">
+        <p>兔子数量: <span id="rabbit-count">0</span></p>
+        <p>狼数量: <span id="wolf-count">0</span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
